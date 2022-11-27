@@ -25,4 +25,5 @@ cv2.circle(image, minLoc, args["radius"], (0, 255, 0), 2)
 cv2.imshow("solution", image)
 cv2.waitKey(0)
 
+#  to run on the command line:
 #  python task2.py --image mammografia-snimok.jpg --radius 41
